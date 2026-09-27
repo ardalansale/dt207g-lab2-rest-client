@@ -1,5 +1,5 @@
-// Byt ut adressen nedan till din publicerade Railway-URL vid drift
-const API_URL = "https://dt207g-lab2-rest-api-production.up.railway.app/api/workexperience";
+// Ny publicerad Railway-URL
+const API_URL = "https://dt207g-lab2-rest-client-production.up.railway.app/api/workexperience";
 
 document.addEventListener("DOMContentLoaded", fetchExperiences);
 
