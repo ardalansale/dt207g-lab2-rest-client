@@ -1,4 +1,4 @@
-const API_URL = "https://dt207g-lab2-rest-api-production.up.railway.app/api/workexperience";
+const API_URL = "https://dt207g-lab2-rest-api-production-a0db.up.railway.app/api/workexperience";
 
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("add-experience-form");
