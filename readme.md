@@ -3,7 +3,7 @@ En fristående HTML/CSS/JavaScript‑webbplats som konsumerar REST‑API:t från
 Byggd med ren frontend‑teknik utan Express/EJS.
 
 ## Publicerad webbplats
-[Frontend‑URL vid deploy]
+https://dt207g-lab2-rest-api.netlify.app/
 
 ## GitHub‑repo
 https://github.com/ardalansale/dt207g-lab2-rest-client
