@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbetserfarenheter | Startsida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Arbetslivserfarenheter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Start</a></li>
+                <li><a href="add.html">Lägg till erfarenhet</a></li>
+                <li><a href="about.html">Om sidan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sparade arbetserfarenheter</h2>
+        <p>Här nedan visas alla registrerade arbetserfarenheter från REST API:et.</p>
+
+        <!-- Meddelanderutor för status/fel -->
+        <div id="error-message" class="error"></div>
+        <div id="success-message" class="success"></div>
+
+        <!-- Tabell där js/main.js renderar rader -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Företag</th>
+                    <th>Titel</th>
+                    <th>Plats</th>
+                    <th>Period</th>
+                    <th>Beskrivning</th>
+                    <th>Åtgärd</th>
+                </tr>
+            </thead>
+            <tbody id="experience-list">
+                <!-- Genereras dynamiskt via js/main.js -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Laboration 2 i DT207G</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

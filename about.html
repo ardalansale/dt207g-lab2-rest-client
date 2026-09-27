@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbetserfarenheter | Om sidan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Arbetslivserfarenheter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="add.html">Lägg till erfarenhet</a></li>
+                <li><a href="about.html" class="active">Om sidan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Om projektet</h2>
+            <p>Denna webbplats är skapad som en del av kursen <strong>DT207G (Backend-baserad webbutveckling)</strong> vid Mittuniversitetet.</p>
+            
+            <h3>Teknikstack</h3>
+            <ul>
+                <li><strong>Frontend:</strong> HTML5, CSS3 och vanilla JavaScript (Fetch API).</li>
+                <li><strong>Backend:</strong> Node.js & Express.js i ett separat repository publicerat på Railway.</li>
+                <li><strong>Databas:</strong> PostgreSQL på Railway.</li>
+            </ul>
+
+            <h3>API-ändpunkter</h3>
+            <p>REST API:et hanterar följande ändpunkter:</p>
+            <ul>
+                <li><code>GET /api/workexperience</code> - Hämtar alla arbetserfarenheter</li>
+                <li><code>POST /api/workexperience</code> - Skapar en ny arbetserfarenhet</li>
+                <li><code>PUT /api/workexperience/:id</code> - Uppdaterar en arbetserfarenhet</li>
+                <li><code>DELETE /api/workexperience/:id</code> - Raderar en arbetserfarenhet</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Laboration 2 i DT207G</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbetserfarenheter | Lägg till</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Arbetslivserfarenheter</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="add.html" class="active">Lägg till erfarenhet</a></li>
+                <li><a href="about.html">Om sidan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Lägg till ny erfarenhet</h2>
+        
+        <!-- Meddelanderutor -->
+        <div id="error-message" class="error"></div>
+        <div id="success-message" class="success"></div>
+
+        <!-- Formulär -->
+        <form id="add-experience-form">
+            <label for="companyname">Företagsnamn:</label>
+            <input type="text" id="companyname" name="companyname" required>
+
+            <label for="jobtitle">Befattning/Titel:</label>
+            <input type="text" id="jobtitle" name="jobtitle" required>
+
+            <label for="location">Plats:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="startdate">Startdatum:</label>
+            <input type="date" id="startdate" name="startdate" required>
+
+            <label for="enddate">Slutdatum (valfritt):</label>
+            <input type="date" id="enddate" name="enddate">
+
+            <label for="description">Beskrivning:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit">Spara erfarenhet</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Laboration 2 i DT207G</p>
+    </footer>
+
+    <script src="js/add.js"></script>
+</body>
+</html>
