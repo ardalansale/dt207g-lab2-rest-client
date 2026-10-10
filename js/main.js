@@ -1,5 +1,5 @@
-// Ny publicerad Railway-URL
-const API_URL = "https://dt207g-lab2-rest-api-production-a0db.up.railway.app/api/workexperience";
+// Ny publicerad render-URL
+const API_URL = "https://dt207g-lab2-rest-api.onrender.com/api/workexperience";
 
 document.addEventListener("DOMContentLoaded", fetchExperiences);
 
