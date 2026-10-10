@@ -19,13 +19,13 @@ https://github.com/ardalansale/dt207g-lab2-rest-client
 ## Sidor
 - index.html – listar alla poster
 - add.html – formulär för att lägga till poster
-- about.html – info om webbplatsen och databasval (Railway)
+- about.html – info om webbplatsen och databasval (Neon & Render)
 
 ## Tekniker
 - HTML
 - CSS
 - JavaScript (Fetch API)
-- Railway PostgreSQL (via REST‑API)
+- Neon PostgreSQL & Render (Backend-hosting via REST‑API)
 
 ## Installation
 Ingen installation krävs.
